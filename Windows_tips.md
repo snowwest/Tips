@@ -6,7 +6,8 @@ C:\Users\用户名\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManag
 2.powershell输出乱码
 (默认当前代码页936，ANSI/OEM-简体中文GBK)控制面板--区域--管理--更改系统区域设置--勾选"Beta版，使用...UTF-8..."，重启电脑
 
-3.powershell去除同一文件中的重复行
+3.powershell显示目录下所有文件(包含隐藏文件) : PS >dir -force
+4.powershell去除同一文件中的重复行
 PS > Get-Content .\t.txt | sort -Unique //使用sort -unique数组去重，可省略
 PS D:\> Get-Content .\filename | Select-Object -Unique //使用select-object -unique去重复行
 或
