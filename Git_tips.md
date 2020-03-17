@@ -28,7 +28,7 @@ git config命令的--global参数，表示这台机器上所有的Git仓库都�
 
 方法2：git clone https://github.com/snowwest/Tips.git
 
-4.本地新增，推送到github
+4.本地新增，推送到github : git push -u origin master
 
 <img src="C:\Users\david\AppData\Roaming\Typora\typora-user-images\image-20200315151325991.png" alt="image-20200315151325991" style="zoom: 80%;" />
 
