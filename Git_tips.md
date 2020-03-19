@@ -33,3 +33,16 @@ git config命令的--global参数，表示这台机器上所有的Git仓库都�
 <img src="C:\Users\david\AppData\Roaming\Typora\typora-user-images\image-20200315151325991.png" alt="image-20200315151325991" style="zoom: 80%;" />
 
 5.
+
+
+
+6.git error
+
+1.Q:本地push到git错误
+
+```
+$ git push -u origin master
+fatal: Could not read from remote repository.alid format
+```
+
+A: 修复id_rsa.pub文件： `cd c:\Users\david\.ssh` , 'ssh-keygen -f id_rsa -y > id_rsa.pub'
