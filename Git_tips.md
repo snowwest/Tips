@@ -18,8 +18,14 @@ Hi snowwest! You've successfully authenticated, but GitHub does not provide shel
 ```
 
 2.4设置你的用户名和电子邮件,github每次commit都会记录他们
-`git config --global  user.name "snowwest"`
-`git config --global  user.email "shareinfo2015@163.com"`
+
+```
+$ git config --global  user.name "snowwest"
+$ git config --global  user.email "shareinfo2015@163.com"
+```
+
+git config命令的--global参数，表示这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。(https://github.com/snowwest/Tips)
+
 git config命令的--global参数，表示这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。(https://github.com/snowwest/Tips)
 
 3.克隆github项目到本地：

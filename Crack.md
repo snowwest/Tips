@@ -256,6 +256,20 @@ Registration=’A06C-83A7-701D-6CFC’
 
 `THUV2-32HH7-6NMHN-PTX7Y-QQCTH  #此为某地方县政府购买的正版序列号，可终身有效激活！`
 
+##### WPS Office 2019 ProPlus 11.8.2.8593 专业增强政府版
+
+PS : 计算机的 WPS 云文档和右键菜单看图设置:通知栏 WPS 云右键—设置
+正版激活序列号
+序列号 ：9DP6T-9AGWG-KWV33-9MPC8-JDCVF；
+序列号：THUV2-32HH7-6NMHN-PTX7Y-QQCTH
+专业版：R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE
+关于启动提示XXX政府机关版
+如果你不希望启动提示XXX政府版找到WPS所在目录，向上一级页面删除oem目录即可
+694BF-YUDBG-EAR69-BPRGB-ATQXH
+下载地址
+诚通网盘：https://YPOJIE.pipipan.com/dir/17401394-32188935-7a28c6/
+百度网盘：https://pan.baidu.com/s/12B2H8Dur9b957M_G3DoBKQ 提取码: unwp
+
 ##### Windows下载和效验码和激活
 
 "联想查看系统密钥工具V2.90.1349732.exe && Oem7F小马.exe" 在Onedrive/Software/软件破解补丁
