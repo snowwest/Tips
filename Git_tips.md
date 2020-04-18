@@ -46,3 +46,4 @@ fatal: Could not read from remote repository.alid format
 ```
 
 A: 修复id_rsa.pub文件： `cd c:\Users\david\.ssh` , 'ssh-keygen -f id_rsa -y > id_rsa.pub'
+
