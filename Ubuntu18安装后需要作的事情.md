@@ -1,15 +1,13 @@
-Ubuntu18安装后需要作的事情
-
 #### 一.通用
 
 ##### 1.更新软件源：软件和更新--更新为阿里或者清华的源
 
-2.更新系统
+##### 2.更新系统
 
 ```
-	$ sudo apt update
-	$ sudo apt upgrade
-	$ sudo apt dist-upgrade
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt dist-upgrade
 ```
 
 ##### 3.win10与ubuntu18时间不一致
@@ -27,38 +25,40 @@ $ sudo hwclock --localtime --systohc  #将时间更新到硬件上，重新进�
 复制文件到/etc目录下 : $ sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 更新时间 : $ sudo ntpdate time.windows.com
 在修改时间后修改硬件CMOS的时间 : $ sudo hwclock --systohc //非常重要，如果没有这一步的话，后面时间还是不准
+
 ###### 3.2Virtual box的虚拟机ubuntu无权限访问共享文件夹
 在虚拟机下查看共享文件夹的属性，发现该目录的所有者是root，所属组是vboxsf。
 解决方法是将自己登录的用户，添加到vboxsf组 : $ sudo usermod -aG vboxsf $(whoami)
 重启虚拟机
 ###### 3.3关机和重启命令
-重启命令 : 
+```
+重启命令(如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启) : 
 $ sudo reboot 
-$ sudo shutdown -r now 立刻重启
-$ sudo shutdown -r 10 过10分钟自动重启
-$ sudo shutdown -r 20:35 在时间为20:35时候重启
-如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启 
-关机命令 : 
-$ sudo halt   立刻关机（一般加-p 关闭电源）
-$ sudo poweroff 立刻关机 
-$ sudo shutdown -h now 立刻关机
-$ sudo shutdown -h 10 10分钟后自动关机 
-如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消关机
+$ sudo shutdown -r now  #立刻重启
+$ sudo shutdown -r 10  #过10分钟自动重启
+$ sudo shutdown -r 20:35  #在时间为20:35时候重启
+关机命令(如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消关机) : 
+$ sudo halt  #立刻关机（一般加-p 关闭电源）
+$ sudo poweroff  #立刻关机 
+$ sudo shutdown -h now  #立刻关机
+$ sudo shutdown -h 10  #10分钟后自动关机 
+```
+
 ###### 3.4U盘支持exfat
 $ sudo apt-get install exfat-fuse exfat-utils
 
 
 ##### 4.为Dock启用“最小化点击”
 
-`$ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  #更改立即生效`
+$ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  #更改立即生效
 
-##### 5.设置Dock(相当于windows的状态栏)：
+##### 5.设置Dock(相当于windows的状态栏)
 
-​	设置-Dock,可设置Dock自动隐藏，图标大小，居中/左/右
+设置-Dock,可设置Dock自动隐藏，图标大小，居中/左/右
 
-##### 6.启用“夜灯”以获得更好的睡眠:
+##### 6.启用“夜灯”以获得更好的睡眠
 
-​	设置>设备>显示，选中“夜灯”
+设置>设备>显示，选中“夜灯”
 
 ##### 7.安装gnome-tweak-tool
 
@@ -89,8 +89,10 @@ $ sudo apt-get install exfat-fuse exfat-utils
 使用它最直观的好处就是，通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机
 ##### 9.安装截图软件flameshot , shutter
 
-`$ sudo apt install flameshot -y  #启动后默认双击截图,ESC退出截图 ,设置快捷键参考:设置-设备-键盘`
+```
+$ sudo apt install flameshot -y  #启动后默认双击截图,ESC退出截图 ,设置快捷键参考:设置-设备-键盘
 $ sudo apt-get install shutter  #安装shutter
+```
 
 ##### 10.GIF录屏Peek
 
@@ -128,8 +130,10 @@ $ sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 
 ##### 13.安装视频播放器smplyaer,VLC,mpv
 
-VLC:`$ sudo snap install vlc`
-mpv:`$ sudo apt install mpv -y` 
+```
+VLC : $ sudo snap install vlc
+mpv : $ sudo apt install mpv -y 
+```
 
 smplayer:
 
