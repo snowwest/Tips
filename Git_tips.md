@@ -89,23 +89,6 @@ https://gitee.com/whsnow/Tips.git
 	merge = refs/heads/master
 ```
 
-修改后config文件
-[core]
-	repositoryformatversion = 0
-	filemode = false
-	bare = false
-	logallrefupdates = true
-	symlinks = false
-	ignorecase = true
-[remote "origin"]
-	url = git@github.com:snowwest/Tips.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = https://gitee.com/whsnow/Tips.git
-[branch "master"]
-	url = https://gitee.com/whsnow/Tips.git
-	remote = origin
-	merge = refs/heads/master
-
 ##### 6.git error
 
 ###### 6.1.本地push到git错误
