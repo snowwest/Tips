@@ -22,3 +22,29 @@ remote wsl ;
 rest client ; 
 settings sync ; 
 waketime
+
+Firefox 插件 ： 
+ublock origin
+bookmarks organizer
+ccb extention for usbkey 
+dark reader
+decentralayes
+flagfox
+foxyproxy standard
+ghostery
+https everywhere
+image block
+leechblock ng
+noscript
+octotree
+onetab
+selenium ide
+setupvpn
+singlefile
+tampermonkey
+user-agent swither and manager
+video downloadhelper
+wappalyzer
+
+
+4008856616；4006103888 
